@@ -202,3 +202,42 @@ a{
     animation: name 1.2s ease 1;
 
 }
+.img1{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 400px;
+    align-items: center;
+    width: 100000px;
+    animation: fadeIn 9s infinite;
+    
+}
+.img2{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 400px;
+    align-items: center;
+    width: 100000px;
+    animation: fadeIn 5s infinite;
+    
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .img3{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 400px;
+    align-items: center;
+    width: 100000px;
+    animation: fadeIn 15s infinite;
+    
+}

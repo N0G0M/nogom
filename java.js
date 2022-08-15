@@ -1,4 +1,4 @@
-var audio = new Audio("/sound/click.mp3");
+var audio = new Audio('https://www.youtube.com/watch?v=7S_tz1z_5bA');
 
 document.onclick = function() {
   audio.play();
